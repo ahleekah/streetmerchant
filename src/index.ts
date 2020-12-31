@@ -17,10 +17,7 @@ let browser: Browser | undefined;
  */
 async function main() {
 	const args: string[] = [];
-	const args: string[] = [
-  '--no-sandbox',
-  '--disable-setuid-sandbox'
-];
+	const args: string[] = ['--no-sandbox','--disable-setuid-sandbox'];
 
 	// Skip Chromium Linux Sandbox
 	// https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md#setting-up-chrome-linux-sandbox
